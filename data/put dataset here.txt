@@ -1,0 +1,34 @@
+Put LOM dataset here: https://mcmasteru365-my.sharepoint.com/:u:/g/personal/dongw22_mcmaster_ca/EWNS12NQoJRDuOTgF6NQ910BNPaCYT2ilKgafBN37uKz-A?e=HAQStw
+
+├── data
+│   | LOM_low_bike_colmap 
+│     ├── depth_maps
+│     ├── images
+│     ├── images_low
+│     ├── sparse
+│     ├── W_0.8
+│   | LOM_low_buu_colmap 
+│     ├── depth_maps
+│     ├── images
+│     ├── images_low
+│     ├── sparse
+│     ├── W_0.8
+│   | LOM_low_chair_colmap 
+│     ├── depth_maps
+│     ├── images
+│     ├── images_low
+│     ├── sparse
+│     ├── W_0.8
+│   | LOM_low_shrub_colmap 
+│     ├── depth_maps
+│     ├── images
+│     ├── images_low
+│     ├── sparse
+│     ├── W_0.8
+│   | LOM_low_sofa_colmap 
+│     ├── depth_maps
+│     ├── images
+│     ├── images_low
+│     ├── sparse
+│     ├── W_0.8
+│   | ...
