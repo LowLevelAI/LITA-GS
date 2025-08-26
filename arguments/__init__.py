@@ -89,6 +89,7 @@ class OptimizationParams(ParamGroup):
         self.densify_grad_threshold = 0.0002
         self.use_depth = True   
         self.use_prior = True
+        self.use_denoiser = True
         self.tonemapper_lr = 0.0001
         self.denoiser_lr = 0.00005
         self.depth_threshold = 1.0
