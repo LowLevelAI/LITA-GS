@@ -9,7 +9,7 @@ This repository represents the official implementation of our CVPR 2025 paper ti
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## 📢 News
-**2025-06-12** We strat to update this repo from today, and we plan to make it complete within one week!
+**2025-08-26** The code for underexposed scenes has been released！
 
 ### Overall Framework
 ![teaser](images/framework.png)
