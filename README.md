@@ -55,3 +55,33 @@ cd LITA-GS
   pip install submodules/diff-gaussian-rasterization
   pip install submodules/simple-knn
   ```
+
+  ## 🏋️ Training
+
+For underexposed scenes, we recommend using our generated [colmap reuslts](https://mcmasteru365-my.sharepoint.com/:u:/r/personal/dongw22_mcmaster_ca/Documents/25CVPR_LITAGS/LOM%20dataset%20with%20depth%20maps%20and%20structure%20priors.zip?csf=1&web=1&e=2ddEXR), where the overall brightness of underexposed images are adjusted to 0.2 or 0.49 before utilizing COLMAP software. Take the bike scene as an example, the training command could be：
+
+```bash
+python train_underexposed.py -s data/LOM_low_bike_colmap -m output/LOM_low_bike --config arguments/LOM/bike_low.py
+```
+The point clouds and testing outputs can be found in *output/LOM_low_bike*.
+
+## ✏️ Contributing
+
+Please refer to [this instruction](CONTRIBUTING.md).
+
+## 🎓 Citation
+
+If you find this repo and our paper useful, please consider citing our paper:
+
+```bibtex
+@inproceedings{zhou2025litags,
+  title={LITA-GS: Illumination-Agnostic Novel View Synthesis via Reference-Free 3D Gaussian Splatting and Physical Priors},
+  author={Zhou, Han and Dong, Wei and Chen, Jun},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={21580--21589},
+  year={2025}
+}
+```
+
+## Acknowledgement
+This repo is built upon [Gaussian DK](https://github.com/yec22/Gaussian-DK). We thank the authors for their great job!
